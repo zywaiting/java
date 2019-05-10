@@ -1,0 +1,64 @@
+#JWT
+jwt:
+  authoritiesKey: auth
+  secret: 49e0121ec7a574c3f4cce329bb91979332289e94
+  #毫秒
+  tokenValidityInSeconds: 36000000
+  tokenValidityInSecondsForRememberMe: 360000000
+#mybatis配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.zdpower.power_system.domain.entity
+spring:
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    initial-size: 10
+    max-active: 100
+    max-idle: 8
+    max-wait: 60000
+    min-evictable-idle-time-millis: 20
+    min-idle: 8
+    test-on-borrow: false
+    test-on-return: false
+    test-while-idle: true
+    time-between-eviction-runs-millis: 30000
+    url: jdbc:mysql://47.96.120.133:3306/zdpower-safe?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: Wangqian1995wq_zy
+    validation-query: select 1
+  #jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  #请求大小配置
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+#日志
+logging:
+  level:
+    com:
+      dy:
+        springboot:
+          server:
+            mapper: debug
+    xin:
+      zhuyao:
+        test: debug
+  file: D:/log/java-test.log
+#微信key
+WeChat:
+  key: https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MzA4MTc4NTUxNQ==&f=json&offset=10&count=10&is_ok=1&scene=123&uin=MjgzMDc3Nzc4MA%3D%3D&key=52ccc0324cb93127ebaa15109fea2b80d036ada4e96005cc5eeab13435bea666d0e0f2da278685cb8e0f05b3c99cb0a6da5c050a1a6ac5e68cb8d3cf65928aa598e6ba779073fa870a3782ea11aa9007&pass_ticket=ThFn18MMvhBoljrMuzzzREbvX56Ofogl%2FMRL7rNb7aQVQM9A1weqd996rvuOTZTR&wxtoken=&appmsg_token=1008_JqDsx10nD2L93JXTtIGOIqmV2vFSM_Ya6YzVCw~~&x5=0&f=json
+#端口号
+server:
+  port: 8001
+
