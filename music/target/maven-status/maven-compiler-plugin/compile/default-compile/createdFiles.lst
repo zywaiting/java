@@ -1,0 +1,14 @@
+xin\zhuyao\music\domain\entitydto\LyricDTO.class
+xin\zhuyao\music\domain\entitydto\MusicMessageDTO.class
+xin\zhuyao\music\service\impl\MusicServiceImpl.class
+xin\zhuyao\music\Swagger2.class
+xin\zhuyao\music\MusicApplication.class
+xin\zhuyao\music\domain\entitydto\MusicDTO$MusicDTOBuilder.class
+xin\zhuyao\music\utils\UnicodeToStringUtils.class
+xin\zhuyao\music\domain\entityvm\SongNameVM.class
+xin\zhuyao\music\controller\MusicController.class
+xin\zhuyao\music\domain\entitydto\SongDTO.class
+xin\zhuyao\music\domain\entitydto\MusicDTO.class
+xin\zhuyao\music\utils\ResponseMessageUtils.class
+xin\zhuyao\music\domain\entityvm\SongIdVM.class
+xin\zhuyao\music\service\MusicService.class

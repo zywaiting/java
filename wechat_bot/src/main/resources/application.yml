@@ -1,0 +1,54 @@
+#mybatis配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: xin.zhuyao.wechat_bot.domain.entity
+spring:
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    initial-size: 10
+    max-active: 100
+    max-idle: 8
+    max-wait: 60000
+    min-evictable-idle-time-millis: 20
+    min-idle: 8
+    test-on-borrow: false
+    test-on-return: false
+    test-while-idle: true
+    time-between-eviction-runs-millis: 30000
+    url: jdbc:mysql://47.96.120.133:3306/wechat_bot?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password:
+    validation-query: select 1
+  #jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  #请求大小配置
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+#日志
+logging:
+  level:
+    com:
+      dy:
+        springboot:
+          server:
+            mapper: debug
+    xin:
+      zhuyao:
+        test: debug
+  file: D:/log/java-wechat_bot.log
+#端口号
+server:
+  port: 8002
+
