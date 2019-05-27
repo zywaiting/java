@@ -31,7 +31,7 @@ public class MusicServiceImpl implements MusicService {
 
     @Override
     public List<MusicMessageDTO> getMusicList(SongNameVM songNameVM) {
-        List<String> sourceList = Arrays.asList("netease","tencent","xiami","kugou","baidu");
+        List<String> sourceList = Arrays.asList("netease","xiami","kugou","baidu");
         Map<String, List<MusicMessageDTO>> sourceMap = new HashMap<>();
         Map<String, String> musicMessageMap = new HashMap<>();
         musicMessageMap.put("types", "search");
@@ -46,31 +46,32 @@ public class MusicServiceImpl implements MusicService {
         }
         List<MusicMessageDTO> musicMessageDTOList = new ArrayList<>();
         List<MusicMessageDTO> musicMessageDTOListNetease = sourceMap.get("netease");
-        List<MusicMessageDTO> musicMessageDTOListTencent = sourceMap.get("tencent");
+//        List<MusicMessageDTO> musicMessageDTOListTencent = sourceMap.get("tencent");
         List<MusicMessageDTO> musicMessageDTOListXiami = sourceMap.get("xiami");
         List<MusicMessageDTO> musicMessageDTOListKugou = sourceMap.get("kugou");
-        List<MusicMessageDTO> musicMessageDTOListBaidu = sourceMap.get("baidu");
+//        List<MusicMessageDTO> musicMessageDTOListBaidu = sourceMap.get("baidu");
         for (int i = 0;
                 i < musicMessageDTOListNetease.size() ||
-                i < musicMessageDTOListTencent.size() ||
+//                i < musicMessageDTOListTencent.size() ||
                 i < musicMessageDTOListXiami.size() ||
-                i < musicMessageDTOListKugou.size() ||
-                i < musicMessageDTOListBaidu.size(); i++) {
+                i < musicMessageDTOListKugou.size()
+//                i < musicMessageDTOListBaidu.size()
+                ; i++) {
             if (i < musicMessageDTOListNetease.size()) {
                 musicMessageDTOList.add(musicMessageDTOListNetease.get(i));
             }
-            if (i < musicMessageDTOListTencent.size()) {
-                musicMessageDTOList.add(musicMessageDTOListTencent.get(i));
-            }
+//            if (i < musicMessageDTOListTencent.size()) {
+//                musicMessageDTOList.add(musicMessageDTOListTencent.get(i));
+//            }
             if (i < musicMessageDTOListXiami.size()) {
                 musicMessageDTOList.add(musicMessageDTOListXiami.get(i));
             }
             if (i < musicMessageDTOListKugou.size()) {
                 musicMessageDTOList.add(musicMessageDTOListKugou.get(i));
             }
-            if (i < musicMessageDTOListBaidu.size()) {
-                musicMessageDTOList.add(musicMessageDTOListBaidu.get(i));
-            }
+//            if (i < musicMessageDTOListBaidu.size()) {
+//                musicMessageDTOList.add(musicMessageDTOListBaidu.get(i));
+//            }
         }
         System.out.println((musicMessageDTOList.size() > (songNameVM.getSongNum() == 0 ? 20 : songNameVM.getSongNum())));
         return musicMessageDTOList.subList(0, (musicMessageDTOList.size() > (songNameVM.getSongNum() == 0 ? 20 : songNameVM.getSongNum())) ? (songNameVM.getSongNum() == 0 ? 20 : songNameVM.getSongNum()) : musicMessageDTOList.size());

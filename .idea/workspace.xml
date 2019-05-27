@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60ce039-2406-4132-be10-9ccad2f1cc66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/MusicApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/controller/MusicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entitydto/LyricDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entitydto/MusicDTO$MusicDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entitydto/MusicDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entitydto/MusicMessageDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entitydto/SongDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entityvm/SongIdVM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/domain/entityvm/SongNameVM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/service/MusicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/service/impl/MusicServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/utils/ResponseMessageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/classes/xin/zhuyao/music/utils/UnicodeToStringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/music-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/music-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/surefire-reports/TEST-xin.zhuyao.music.MusicApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/surefire-reports/xin.zhuyao.music.MusicApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/target/test-classes/xin/zhuyao/music/MusicApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/META-INF/test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/TestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/domain/entitydto/WeChatAppMsgExtInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/domain/entitydto/WeChatArticleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/domain/entitydto/WeChatCommMsgInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/domain/entitydto/WeChatGeneralMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/domain/entitydto/WeChatMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/AtomicityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/Blocked3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/DualSynch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/InterruptingIdiom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/NeedsCleanup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/SyncObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/xin/zhuyao/test/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/test-classes/xin/zhuyao/test/TestApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/META-INF/wechat_article.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/WeChatArticleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entity/ArticleContentEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entity/ArticleUrlEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entitydto/WeChatAppMsgExtInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entitydto/WeChatArticleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entitydto/WeChatCommMsgInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entitydto/WeChatGeneralMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/domain/entitydto/WeChatMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/repository/ArticleContentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/repository/ArticleUrlRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/service/ArticleContentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/service/impl/ArticleContentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/singleton/RestTemplateSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/classes/xin/zhuyao/wechat_article/utils/ThreadPoolUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat_article/target/test-classes/xin/zhuyao/wechat_article/WeChatArticleApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,22 +84,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/domain/entitydto/MusicDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/MusicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="317">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/controller/MusicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="479">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="335">
               <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
             </state>
           </provider>
@@ -121,14 +165,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+            <state relative-caret-position="734">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="73" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -204,19 +257,28 @@
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/domain/entityvm/SongIdVM.java" />
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/utils/UnicodeToStringUtils.java" />
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/domain/entitydto/MusicDTO.java" />
-        <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java" />
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/MusicService.java" />
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/controller/MusicController.java" />
-        <option value="$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java" />
         <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/Swagger2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/music/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java" />
+        <option value="$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="music" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -449,7 +511,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558952730477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558954563315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -580,7 +642,7 @@
       <workItem from="1557712213142" duration="5584000" />
       <workItem from="1557796961669" duration="2960000" />
       <workItem from="1558923221416" duration="8166000" />
-      <workItem from="1558943336494" duration="9494000" />
+      <workItem from="1558943336494" duration="10934000" />
     </task>
     <servers />
   </component>
@@ -617,7 +679,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54028000" />
+    <option name="totallyTimeSpent" value="55468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -631,7 +693,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5347071" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5314534" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.47288504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,7 +701,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34118968" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34056398" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3943662" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32884398" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1018,33 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/MusicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/builders/PathSelectors.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1071,16 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/controller/MusicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,8 +1139,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="335">
           <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/src/test/java/xin/zhuyao/music/MusicApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/MusicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/src/main/java/xin/zhuyao/music/service/impl/MusicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

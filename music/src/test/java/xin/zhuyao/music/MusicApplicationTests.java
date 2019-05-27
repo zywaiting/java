@@ -24,11 +24,11 @@ public class MusicApplicationTests {
 
     @Test
     public void contextLoads() {
-        SongNameVM songNameVM = new SongNameVM();
-        songNameVM.setSongName("凉凉");
-        songNameVM.setSongNum(20);
-        List<MusicMessageDTO> musicList = musicService.getMusicList(songNameVM);
-        System.out.println(musicList);
+//        SongNameVM songNameVM = new SongNameVM();
+//        songNameVM.setSongName("凉凉");
+//        songNameVM.setSongNum(20);
+//        List<MusicMessageDTO> musicList = musicService.getMusicList(songNameVM);
+//        System.out.println(musicList);
     }
 
     @Test
