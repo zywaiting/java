@@ -254,10 +254,10 @@ public class WeChatBot {
     /**
      * 启动微信监听
      */
-    public void start() {
+    public void start(String uuid) {
         this.api = new WeChatApiImpl(this);
         log.info("wechat-bot: {}", Constant.VERSION);
-        api.login(config.autoLogin());
+        api.login(config.autoLogin(),uuid);
 
         Thread msgHandle = new Thread(new Runnable() {
             @Override

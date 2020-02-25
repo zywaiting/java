@@ -116,6 +116,7 @@
         <module>wechat_bot</module>
         <module>music</module>
         <module>tencent</module>
+        <module>bus</module>
     </modules>
 
 
